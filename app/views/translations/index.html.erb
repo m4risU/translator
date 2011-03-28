@@ -1,0 +1,9 @@
+<ul>
+  <% @translations.each do |translation| %>
+      <li>
+        <%= translation.key %>
+        <span>&nbsp;</span>
+        <%= translation.value %>
+      </li>
+  <% end %>
+</ul>
